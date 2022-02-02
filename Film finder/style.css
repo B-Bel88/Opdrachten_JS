@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.container-header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.filmFilter {
+    margin: 2rem;
+}
+
+.container-theMovies li {
+    display: flex;
+    justify-content: center;
+}
+#movieList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

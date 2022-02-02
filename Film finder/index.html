@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Filter</title>
+</head>
+<body>
+
+    <header>
+
+        <section class="Header">
+            <div class="container-header">
+                <h1>Winc film finder</h1>
+            </div>
+        </section>
+
+        <section class="filmFilter">
+            <div class="container">
+                <nav class="nav">
+                    <div>
+                        <label for="all">All Movies</label>
+                        <input type="radio" id="all" name="filmFinder" value="all">
+                    </div>
+                    <div>
+                        <label for="newMovies">New Movies</label>
+                        <input type="radio" id="newmovies" name="filmFinder" value="newMovies">
+                    </div>
+                    <div>
+                        <label for="avengers">Avengers</label>
+                        <input type="radio" id="avengers" name="filmFinder" value="avengers">
+                    </div>
+                    <div>
+                        <label for="xmen">X-Men</label>
+                        <input type="radio" id="xmen" name="filmFinder" value="xmen">
+                    </div>
+                    <div>
+                        <label for="princess">Princess</label>
+                        <input type="radio" id="princess" name="filmFinder" value="princess">
+                    </div>
+                    <div>
+                        <label for="batman">Batman</label>
+                        <input type="radio" id="batman" name="filmFinder" value="batman">
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div class="container-theMovies">
+                <div id="movieList"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="functions.js"></script>
+    
+</body>
+</html>
